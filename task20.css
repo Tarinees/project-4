@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    border: 1px solid black;
+    height: 3200px;
+}
+.header{
+    height: 18%;
+    background: url(images/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+.manu_bar{
+    height: 10%;
+    color: white;
+    display: flex;
+}
+.manu_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.manu_list{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.hardees{
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+}
+.list_item{
+    font-size: 15px;
+    list-style-type: none;
+}
+.manu_button{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button{
+    width: 140px;
+    height: 33px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(255, 196, 0);
+}
+.fast_food{
+    height: 90%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.fast_para{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    margin-left: 100px;
+}
+.click_button{
+    height: 40px;
+    border-radius: 20px;
+}
+.fast_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+    padding: 80px 0px 0px 0px;
+}
+.last_icon{
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(247, 208, 50);
+}
+.fast_icon{
+    width: 14px;
+    height: 14px;
+    border-radius: 10px;
+    background-color: white;
+}
+.fast_heading{
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 100;
+    font-size: 60px;
+}
+.first_section{
+    width: 80%;
+    margin: auto;
+    height: 9%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pizza{
+    width: 45%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(39, 34, 34);
+    border-radius: 5px;
+    color: white;
+    padding: 0px 10px;
+}
+.pizza_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 5px solid rgb(245, 220, 31);
+}
+.pizza_about{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+.pizza_about h2{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Brush Script MT', cursive;
+
+}
+.fiza_parent{
+    width: 100%;
+    height: 100%;
+}
+
+.second_section{
+    height: 28%;
+}
+.second_header{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.second_list{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.second_heading p{
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Brush Script MT', cursive;
+}
+.list_one{
+    background-color: black;
+    width: 65px;
+    height: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_bottom{
+    height: 85%;
+    width: 80%;
+    margin: auto;
+}
+.second_bottom_first , .second_bottom_second{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+.second_box{
+    width: 30%;
+    background-color: rgb(14, 16, 28);
+    color: white;
+    border-radius: 15px;
+}
+.second_box_top{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    border-radius: 12px 12px 0px 35px;
+}
+.second_box_bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    padding: 15px;
+    color: rgb(238, 238, 238);
+}
+.second_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.second_box h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.second_icon i{
+    background-color: rgb(255, 200, 0);
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.third_section{
+    height: 18%;
+    margin-top: 100px;
+    background-color: rgb(13, 30, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third_one, .third_two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.third_two{
+    width: 40%;
+    height: 50%;
+    color: white;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-right: 45px;
+}
+.third_two h3{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Brush Script MT', cursive;
+}
+.third_two p{
+    line-height: 25px;
+}
+.third_two button{
+    height: 40px;
+    border-radius: 20px;
+}
+
+.fourth_section{
+    height: 14%;
+    display: flex;
+
+}
+
+.fourth_one{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 12px;
+}
+.fourth_one form{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fourth_one form h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Brush Script MT', cursive;
+
+}
+.fourth_one form button{
+    height: 37px;
+    width: 150px;
+    border-radius: 20px;
+}
+.fourth_one form input , .fourth_one form select{
+    padding: 13px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid grey;
+    font-size: 15px;
+    color: grey;
+}
+
+.fourth_two{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.fourth_two iframe{
+    height: 75%;
+    border-radius: 15px;
+}
+
+.footer {
+    height: 10%;
+    background-color: rgb(26, 30, 41);
+    color: rgb(235, 235, 235);
+}
+.footer_child{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_one{
+    height: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.footer_one h3 , .footer_two_box h3{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Brush Script MT', cursive;
+}
+.footer_two{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer_two_box{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.footer_box1{
+    height: 55%;
+}
+.footer_icon{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_icon i{
+    background-color: rgb(242, 242, 242);
+    color: rgb(42, 42, 42);
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
